@@ -5,8 +5,8 @@ const Menu = () => {
   return (
     <div
       style={{
-        backgroundColor: "#343434",
-        padding: "5% 0 0 0",
+        // backgroundColor: "rgb(112,128,144)",
+        padding: "2% 0 0 0",
       }}
     >
       <ul className="nav justify-content-center">
@@ -17,7 +17,7 @@ const Menu = () => {
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/about">
-            Link
+            About Me
           </Link>
         </li>
         <li className="nav-item">
