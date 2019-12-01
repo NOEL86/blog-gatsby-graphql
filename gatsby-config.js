@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Meg's Blog Site`,
+    title: `Meg's Food & Travel Blog Site`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
@@ -22,6 +22,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `meg`,
+    //     path: `${__dirname}/src/images/meg.jpeg`,
+    //   },
+    // },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

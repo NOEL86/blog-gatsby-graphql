@@ -5,11 +5,10 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rgb(102,153,204)`,
+      background: `rgb(7,59,91)`,
       marginBottom: `0`,
       padding: `5px`,
-      boxShadow: `5px 10px rgb(112,128,144)`,
-      opacity: `.7`,
+      boxShadow: `0 10px 10px 0 rgb(112,128,144), 0 3px 6px 0 rgb(112,128,144)`,
     }}
   >
     <div
